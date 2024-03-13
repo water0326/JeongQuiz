@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'meetme';
+    src: url('./Fonts/meetme.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(45, 45, 45);
+}

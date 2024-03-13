@@ -3,7 +3,7 @@ class ResultScene extends Scene {
         this.giftCodeBlockXOffset = 50;
         this.giftCodeBlockIntervalOffset = 2;
         this.giftCodeBlockY = 500;
-        this.giftCodeBlockLength = 30;
+        this.giftCodeBlockLength = (width - this.giftCodeBlockXOffset * 2 - this.giftCodeBlockIntervalOffset * (totalAnswerCount - 1)) * 0.1;;
         
     }
     GenerateObject() {
